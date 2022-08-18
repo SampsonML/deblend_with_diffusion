@@ -2,25 +2,28 @@
 
 ## Matt Sampson 2022 - Semester 1 2022 Fall project
 ### Background info
-This project will be tied into work with SCARLET (developed by P Melchior) https://ui.adsabs.harvard.edu/abs/2018A&C....24..129M. Scarlet deblends images reducing noise and interactions from independant galaxies.
+Large scale images such as Hubble deep field, now JWST deep field, contain many astrophysical feature in high density. A common issue is the pixel densities of two or more potentially overlapping galaxies. This could be a physical interaction, or more likely a situation where the galaxies lie in the same same line-of-sight however are completely independent. To analyse these galaxies we ideally would like to eleimiate any non-physical pixel blending ie. we wish to deblend the galaxy images.
+
+This project will be tied into work with SCARLET (developed by P Melchior) https://ui.adsabs.harvard.edu/abs/2018A&C....24..129M. Scarlet deblends images and reducing noise and interactions from independant galaxies.
 ![Melchior+2022](https://github.com/SampsonML/deblend_with_diffusion/blob/main/images/scarlet_deep_field.png)
 
+To deal with this problem we may approach the task of deblending through the lens of probabilistic machine learning. To be more clear we explicitly the problem is as such (from Francios+2019)
 
-We may approach the task of deblending through the lens of probabilistic machine learning. 
-
-The problem from Francios+2019
-We consider a general linear inverse problems of the form:
+Consider a general linear inverse problems of the form:
 
 y = Ax + n
 
-where y are the observations, x is the unknown signal to recover, A is a linear degradation operator, n is some observational noise. A baysian approach tells us to generate a posterior distribution for y as below,
+where y are the observations, x is the unknown signal to recover, A is a linear degradation operator, n is some observational noise. We would like to determine x. A baysian approach tells us to generate a posterior distribution for y as below,
 
 p(x|y) \propto / p(y|x) p(x).
 
-Where, p(y|x) is just the explicit observational data we havethe data likelihood term, and p(x) is our prior. It in this prior in which we aim to develop ma diffusion based machine learning model to calculate. Similar to work here but with diffusion models instead of neural networks  (https://ui.adsabs.harvard.edu/abs/2019arXiv191203980L/abstract). 
+Where, p(y|x) is just the explicit observational data we havethe data likelihood term, and p(x) is our prior. It in this prior in which we aim to develop  diffusion based machine learning model to construct. Similar to work here but with diffusion models instead of neural networks  (https://ui.adsabs.harvard.edu/abs/2019arXiv191203980L/abstract). 
 ## Project Aims
+* Aims:
+  1. Create a diffusion model for our prior p(x)
+  2. Train this model on large sets of data
+  3. Use the newly constructed prior to then build a posterior, which may then be updated with new images without the need to update p(x)
 
-Galaxy images from large surveys will onclude many blended images. Performing a deblending of these is not trivial.
 
 ## Plan
 
