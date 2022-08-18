@@ -31,10 +31,12 @@ One approach
  
 
 ## Useful papers
-For context scientific context
+### For context scientific context
+
 Scarlet paper: (https://ui.adsabs.harvard.edu/abs/2018A&C....24..129M)
 
-Similar work:
+### Similar work:
+
 Burke+2019 (https://arxiv.org/abs/1908.02748)
 
 Huang+2022 (https://www.assemblyai.com/blog/diffusion-models-for-machine-learning-introduction/)
