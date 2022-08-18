@@ -35,7 +35,7 @@ Lilian Weng blogpost (https://lilianweng.github.io/posts/2021-07-11-diffusion-mo
 
 Yang Song blogpost (https://yang-song.github.io/blog/2021/score/)
 
-Ryan O'Conner AsseblyAI (https://www.assemblyai.com/blog/diffusion-models-for-machine-learning-introduction/)
+Ryan O'Conner AssemblyAI (https://www.assemblyai.com/blog/diffusion-models-for-machine-learning-introduction/)
   
   
   
