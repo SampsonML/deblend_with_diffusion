@@ -3,7 +3,7 @@
 ## Matt Sampson 2022 - Semester 1 2022 Fall project
 ### Background info
 This project will be tied into work with SCARLET (developed by P Melchior) https://ui.adsabs.harvard.edu/abs/2018A&C....24..129M. Scarlet deblends images reducing noise and interactions from independant galaxies.
-![Melchior+2022](/Users/mattsampson/Documents/screenshots/scarlet_deep_field.png)
+![Melchior+2022](https://github.com/SampsonML/deblend_with_diffusion/blob/main/images/scarlet_deep_field.png)
 
 
 
