@@ -32,7 +32,9 @@ Burke+2019 (https://arxiv.org/abs/1908.02748)
 
 ## Useful other rescources
 Lilian Weng blogpost (https://lilianweng.github.io/posts/2021-07-11-diffusion-models/)
+
 Yang Song blogpost (https://yang-song.github.io/blog/2021/score/)
+
 Ryan O'Conner AsseblyAI (https://www.assemblyai.com/blog/diffusion-models-for-machine-learning-introduction/)
   
   
