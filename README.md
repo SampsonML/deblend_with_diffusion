@@ -8,6 +8,11 @@ This project will be tied into work with SCARLET (developed by P Melchior) https
 
 We may approach the task of deblending through the lens of probabilistic machine learning. 
 
+The problem (very similar to Francios+2019)
+We consider a general linear inverse problems of the form:
+y = Ax + n , (1)
+where y are the observations, x is the unknown signal to recover, A is a linear degradation operator, n is some observational noise.
+
 and is meant to update the neural network priors we published here: https://ui.adsabs.harvard.edu/abs/2019arXiv191203980L/abstract
 ## Project Aims
 
@@ -29,6 +34,8 @@ Scarlet paper: (https://ui.adsabs.harvard.edu/abs/2018A&C....24..129M)
 
 Similar work:
 Burke+2019 (https://arxiv.org/abs/1908.02748)
+
+Huang+2022 (https://www.assemblyai.com/blog/diffusion-models-for-machine-learning-introduction/)
 
 ## Useful other rescources
 Lilian Weng blogpost (https://lilianweng.github.io/posts/2021-07-11-diffusion-models/)
