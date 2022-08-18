@@ -31,7 +31,7 @@ One approach
  
 
 ## Useful papers
-### For context scientific context
+### For context scientific context:
 
 Scarlet paper: (https://ui.adsabs.harvard.edu/abs/2018A&C....24..129M)
 
