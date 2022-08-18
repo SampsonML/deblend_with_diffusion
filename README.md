@@ -10,6 +10,8 @@ We may approach the task of deblending through the lens of probabilistic machine
 
 The problem (very similar to Francios+2019)
 We consider a general linear inverse problems of the form:
+![\Large y=\mathbf{A}x + b](https://latex.codecogs.com/svg.latex?\Large&space;=\mathbf{A}x + b) 
+
 y = Ax + n , (1)
 where y are the observations, x is the unknown signal to recover, A is a linear degradation operator, n is some observational noise.
 
