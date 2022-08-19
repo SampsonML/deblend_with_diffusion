@@ -17,7 +17,7 @@ where y are the observations, x is the unknown signal to recover, A is a linear 
 
 p(x|y) \propto / p(y|x) p(x).
 
-Where, p(y|x) is just the explicit observational data we havethe data likelihood term, and p(x) is our prior. It in this prior in which we aim to develop  diffusion based machine learning model to construct. Similar to work here but with diffusion models instead of neural networks  (https://ui.adsabs.harvard.edu/abs/2019arXiv191203980L/abstract). 
+Where, p(y|x) is just the explicit observational data we have the data likelihood term, and p(x) is our prior. It in this prior in which we aim to develop  diffusion based machine learning model to construct. Similar to work here but with diffusion models instead of neural networks  (https://ui.adsabs.harvard.edu/abs/2019arXiv191203980L/abstract). 
 ## Project Aims
 * Aims:
   1. Create a diffusion model for our prior p(x)
