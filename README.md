@@ -32,6 +32,13 @@ Where, p(y|x) is just the explicit observational data we havethe data likelihood
   2. Step 2
   3. Step 3
   4. Step 4
+  
+* Important notes
+  1. Compute infrastructure, Princeton HPC?
+  2. Build with jax
+  3. Learn most efficient way to utalise jax's jit (just in time) compilation
+  4. How will we build our initial prior? Do we need a baseline prior which then is optimised with the ML routine?
+  5. 
  
 
 ## Useful papers
