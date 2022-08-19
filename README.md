@@ -1,6 +1,6 @@
 # Diffusion models for deblending
 
-## Matt Sampson 2022 - Semester 1 2022 Fall project
+## Matt Sampson - Semester 1 2022 Fall project
 ### Background info
 Large scale images such as Hubble deep field, now JWST deep field, contain many astrophysical feature in high density. A common issue is the pixel densities of two or more potentially overlapping galaxies. This could be a physical interaction, or more likely a situation where the galaxies lie in the same same line-of-sight however are completely independent. To analyse these galaxies we ideally would like to eleimiate any non-physical pixel blending ie. we wish to deblend the galaxy images.
 
