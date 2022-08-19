@@ -2,7 +2,7 @@
 
 ## Matt Sampson - Semester 1 2022 Fall project
 ### Background info
-Large scale images such as Hubble deep field, now JWST deep field, contain many astrophysical feature in high density. A common issue is the pixel densities of two or more potentially overlapping galaxies. This could be a physical interaction, or more likely a situation where the galaxies lie in the same same line-of-sight however are completely independent. To analyse these galaxies we ideally would like to eleimiate any non-physical pixel blending ie. we wish to deblend the galaxy images.
+Large scale images such as Hubble deep field, now JWST deep field, contain many astrophysical feature in high density. A common issue is the pixel densities of two or more potentially overlapping galaxies. This could be a physical interaction, or more likely a situation where the galaxies lie in the same same line-of-sight however are completely independent. To analyse these galaxies we ideally would like to eliminate any non-physical pixel blending ie. we wish to deblend the galaxy images.
 
 This project will be tied into work with SCARLET (developed by P Melchior) https://ui.adsabs.harvard.edu/abs/2018A&C....24..129M. Scarlet deblends images and reducing noise and interactions from independant galaxies.
 ![Melchior+2022](https://github.com/SampsonML/deblend_with_diffusion/blob/main/images/scarlet_deep_field.png)
