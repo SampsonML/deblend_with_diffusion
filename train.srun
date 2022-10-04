@@ -1,0 +1,16 @@
+#!/bin/bash
+#SBATCH --job-name=deblinding_ML_training          # Job name
+#SBATCH --mail-user=matt.sampson@princeton.edu     # Where to send mail	
+#SBATCH --mem=100gb                                # Job memory request
+#SBATCH --time=10:00:00                            # Time limit hrs:min:sec
+#SBATCH --gres=gpu:1                               # Run on the GPU
+
+
+module load anaconda3/2021.11
+source /usr/licensed/anaconda3/2021.11/etc/profile.d/conda.sh
+conda activate diff
+
+echo "Running ML training on a single GPU"
+
+python diffusion_train_script_dogy.py
+
