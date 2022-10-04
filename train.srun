@@ -12,5 +12,5 @@ conda activate diff
 
 echo "Running ML training on a single GPU"
 
-python diffusion_train_script_dogy.py
+python diffusion_train_script_224.py
 
