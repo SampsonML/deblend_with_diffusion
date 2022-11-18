@@ -47,6 +47,8 @@ Scarlet paper: (https://ui.adsabs.harvard.edu/abs/2018A&C....24..129M)
 
 ### Similar work:
 
+Song+2019 and 2020 (https://arxiv.org/abs/1907.05600 , https://arxiv.org/abs/2006.09011)
+
 Burke+2019 (https://arxiv.org/abs/1908.02748)
 
 Huang+2022 (https://www.assemblyai.com/blog/diffusion-models-for-machine-learning-introduction/)
@@ -55,8 +57,6 @@ Huang+2022 (https://www.assemblyai.com/blog/diffusion-models-for-machine-learnin
 Lilian Weng blogpost (https://lilianweng.github.io/posts/2021-07-11-diffusion-models/)
 
 Yang Song blogpost (https://yang-song.github.io/blog/2021/score/)
-
-Ryan O'Conner AssemblyAI (https://www.assemblyai.com/blog/diffusion-models-for-machine-learning-introduction/)
   
   
   
