@@ -22,7 +22,7 @@ Where, p(y|x) is just the explicit observational data we have the data likelihoo
 * Aims:
   1. Create a diffusion model for our prior p(x)
   2. Train this model on large sets of data
-  3. Use the newly constructed prior to then build a posterior, which may then be updated with new images without the need to update p(x)
+  3. Use the newly constructed prior to then add into SCARLET
 
 
 ## Plan
@@ -37,7 +37,6 @@ Where, p(y|x) is just the explicit observational data we have the data likelihoo
   1. Compute infrastructure, Princeton HPC?
   2. Build with jax - allowing for GPU or CPU utalisation with no code changes
   3. Learn most efficient way to utalise jax's jit (just in time) compilation
-  4. How will we build our initial prior? Do we need a baseline prior which then is optimised with the ML routine?
  
 
 ## Useful papers
