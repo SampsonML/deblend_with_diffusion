@@ -48,8 +48,7 @@ batch_size = 128     # batch size for mini-batch gradient descent (stochastic gr
 transform  = T.Compose([
         ToTensor(),
         T.Resize(size=(im_size, im_size)),
-        T.Grayscale(num_output_channels=1),
-        T.Normalize((0.5, ), (0.5, ))])
+        T.Grayscale(num_output_channels=1)])
 file_name = 'galaxies/'
 dataset = datasets.ImageFolder(file_name,
                         transform=transform)
