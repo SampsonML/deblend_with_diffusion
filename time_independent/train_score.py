@@ -703,7 +703,7 @@ A deeper architecture for 64by64
 and above images. Song+2020
 uses config files to determine 
 some param values, here while in
-testing I had code some things.
+testing I hard coded some things.
 
 -----------------
 Hard coded inputs
