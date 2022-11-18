@@ -888,9 +888,8 @@ if train:
         score.train()
         avg_loss = 0.
         for i, (X, y) in enumerate(loader):
+                
             X = X.to(device)
-            #X = X / 256. * 255. + torch.rand_like(X) / 256.  
-            
             loss = anneal_dsm_score_estimation(score, X, sigmas, None, 2)
             optimizer.zero_grad()
             loss.backward()
