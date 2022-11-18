@@ -14,6 +14,9 @@ image with a noise vector length 25. Changing the image dimensions
 and noise vector length and details are straighforward in future
 a config file will handle the model params for an abitrary image size
 and noise vector parameters.
+
+Matt Sampson
+Nov 2022
 """
 
 # ---------------- #
