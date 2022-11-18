@@ -1,8 +1,20 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# Time independent score based model
-# Matt Sampson
+"""
+Script to define, train, and store a time independent 
+score based diffusion model s(x, sigma). Currently this is
+a re-write of Song+2020 https://arxiv.org/abs/2006.09011
+from https://github.com/ermongroup/ncsnv2 with a few alterations
+and adaptions. 
+
+The model architecture and training params are all currently
+hard-coded. With the set-up here for a 64 by 64 greyscale
+image with a noise vector length 25. Changing the image dimensions
+and noise vector length and details are straighforward in future
+a config file will handle the model params for an abitrary image size
+and noise vector parameters.
+"""
 
 # ---------------- #
 # import libraries #
@@ -821,6 +833,12 @@ class NCSNv2Deeper(nn.Module):
 # ------------- #
 # loss function #
 # ------------- #
+"""
+Defining the loss function used by Song+2020
+The loss function here is eqn 2 from https://arxiv.org/abs/2006.09011
+Note: I use identical formulation as Song+2020 which seems faster, but looks
+slightly different to eqn2, however it is the same.
+"""
 
 def anneal_dsm_score_estimation(scorenet, x , sigmas, labels=None, anneal_power=2.):
     
