@@ -2,4 +2,4 @@
 
 trained models located on ADROIT at
 
-"/scratch/network/ms0821/ms0821/diffusion_models/public_project_files"
+"/scratch/network/ms0821/ms0821/diffusion_models/public_project_files/anneal_v2_res64_GPU25.pt"
